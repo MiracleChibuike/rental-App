@@ -70,15 +70,15 @@ const addPastHome = () => {
               <div className="state">
                 <label htmlFor="States">In which State</label>
                 <select name="" id="my-select">
-                  <option value="Arizona">Arizona</option>
-                  <option value="Kentucky">Kentucky</option>
-                  <option value="California">California</option>
-                  <option value="Texas">Texas</option>
-                  <option value="Alabama">Alabama</option>
-                  <option value="Uttah" id="space">
-                    Uttah
+                  <option value="Imo">Imo</option>
+                  <option value="Ebonyi">Ebonyi</option>
+                  <option value="Delta">Delta</option>
+                  <option value="Lagos">Lagos</option>
+                  <option value="Abuja">Abuja</option>
+                  <option value="Anambra" id="space">
+                    Anambra
                   </option>
-                  <option value="Miami">Miami</option>
+                  <option value="Enugu">Enugu</option>
                 </select>
               </div>
               <div className="homeAddress">
@@ -88,7 +88,7 @@ const addPastHome = () => {
                 <input
                   type="text"
                   autoComplete="address"
-                  placeholder="Ex: Street 112 New Texas"
+                  placeholder="Ex: Ikenegbu Extension Street "
                 />
               </div>
               <div className="Apt">
@@ -114,17 +114,15 @@ const addPastHome = () => {
                   <div className="state">
                     <label htmlFor="States">In which State</label>
                     <select name="" id="my-select">
-                      <option value="Arizona">Arizona</option>
-                      <option value="Kentucky">Kentucky</option>
-                      <option value="California">California</option>
-                      <option value="Texas" selected>
-                        Texas
+                      <option value="Imo">Imo</option>
+                      <option value="Ebonyi">Ebonyi</option>
+                      <option value="Delta">Delta</option>
+                      <option value="Lagos">Lagos</option>
+                      <option value="Abuja">Abuja</option>
+                      <option value="Anambra" id="space">
+                        Anambra
                       </option>
-                      <option value="Alabama">Alabama</option>
-                      <option value="Uttah" id="space">
-                        Uttah
-                      </option>
-                      <option value="Miami">Miami</option>
+                      <option value="Enugu">Enugu</option>
                     </select>
                   </div>
                   <div className="homeAddress">
@@ -134,7 +132,7 @@ const addPastHome = () => {
                     <input
                       type="text"
                       autoComplete="address"
-                      placeholder="Ex: Street 112 New Texas"
+                      placeholder="Ex: Ikenegbu Extension Street"
                     />
                   </div>
                   <div className="Apt">
@@ -152,9 +150,7 @@ const addPastHome = () => {
               </label>
             </div>
             <div className="next">
-              <button id="NextBtn">
-                Done
-              </button>
+              <button id="NextBtn">Done</button>
             </div>
           </div>
         </div>
