@@ -14,8 +14,8 @@ import "./Header.css";
 const Header = () => {
      const navigate = useNavigate(); // Use useNavigate hook
 
-     const goToResidence = () => {
-       navigate("/residence"); // Use navigate function for navigation
+     const goToPets = () => {
+       navigate("/pets"); // Use navigate function for navigation
      };
 
   const [count, setCount] = useState(1);
@@ -52,7 +52,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="contents">
+        <div className="contentsHeader">
           <p>
             How many People will be living in this home, including children?{" "}
           </p>
@@ -72,7 +72,7 @@ const Header = () => {
             />
           </div>
           <div className="next">
-            <button id="NextBtn" onClick={goToResidence}>
+            <button id="NextBtn" onClick={goToPets}>
               Next
             </button>
           </div>

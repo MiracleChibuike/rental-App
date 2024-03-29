@@ -27,7 +27,7 @@
     background: var(--clr-white);
 }
 .contents{
-    margin: 70px 20px;
+    margin: 20px 20px;
 }
 
 .backHeader{
@@ -119,4 +119,16 @@ font-size: 13px;
 }
 .checkBox small:hover{
 cursor: pointer;
+}
+
+/* lets add an animation to the last page to showcase that we are done submitting */
+
+.addAnimation{
+    animation: showAnimate linear 3s;
+}
+
+@keyframes showAnimate {
+    50%, 100%{
+        transform: rotate(50deg);
+    }
 }

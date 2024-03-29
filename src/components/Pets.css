@@ -1,0 +1,20 @@
+
+
+.back p{
+    cursor: pointer;
+}
+.contents{
+    margin: 70px 20px;
+    font-size: 18px;
+}
+.contents, .counts p{
+    font-weight: lighter;
+}
+.outputs{
+    margin: 18px 0;
+}
+.output1 {
+    display: flex;
+    justify-content: space-between;
+}
+

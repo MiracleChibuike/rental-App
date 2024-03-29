@@ -1,0 +1,51 @@
+
+
+:root {
+    --clr-blue: #363fbc;
+    --clr-dark: #000;
+    --clr-white: #fff;
+    --clr-semi-white: #f2f2f2;
+    --clr-gray: rgb(112, 104, 104);
+    --clr-red: #d92424;
+}
+
+.contentsPets{
+    margin: 70px 20px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+/* .cancel p{
+    color: var(--clr-blue);
+    cursor: pointer;
+}
+.cancel p:hover{
+    transition: .2s;
+    transform: translateX(5px);
+} */
+.date{
+    margin:  18px 0;
+}
+#datesInput{
+    padding: 10px 8px;
+        width: 300px;
+        outline: none;
+        border: 1px solid var(--clr-gray);
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: bold;
+            font-weight: lighter;
+            background: transparent;
+}
+.check input{
+
+            width: 30px;
+            height: 15px;
+            position: relative;
+            top: 2px;
+            cursor: pointer;
+       
+}
+.checkBox input:hover, .checkBox label:hover{
+    cursor: pointer;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState } from "react"; 
 import { useRef } from "react";
 
 import PlusIcon from "../assets/images/plusicon.png";
@@ -10,10 +10,17 @@ import "./Residence.css";
 
 const Residence = () => {
   const navigate = useNavigate(); // Use useNavigate hook
-
-  const goToHeader = () => {
-    navigate("/header"); // Use navigate function for navigation
+  const goToDates = () => {
+    navigate("/dates"); // Use navigate function for navigation
   };
+
+  const ShowAnimation = () =>{
+      const animate = document.getElementById("NextBtn");
+
+          animate.classList.add("addAnimation");
+          alert("We have recived your response");
+          console.log(animate);
+  }
 
   //   To display the Add home feature
 
@@ -38,15 +45,12 @@ const addPastHome = () => {
 
 };
 
-
-  
-
   return (
     <section id="Residence">
       <div className="contentsResidence">
         <div className="headers">
           <div className="backHeader">
-            <p onClick={goToHeader}>Back</p>
+            <p onClick={goToDates}>Back</p>
           </div>
           <div className="Title-r">
             <p>Residence History</p>
@@ -150,7 +154,9 @@ const addPastHome = () => {
               </label>
             </div>
             <div className="next">
-              <button id="NextBtn">Done</button>
+              <button id="NextBtn" onClick={ShowAnimation}>
+                Done
+              </button>
             </div>
           </div>
         </div>
